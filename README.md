@@ -1,2 +1,6 @@
 # Hate-Speech-Detection
-A program that can detect hate speech from text input.
+The Hate Speech Detection System is a machine learning-based solution designed to identify and classify offensive language in text data, particularly from social media platforms like Twitter. By leveraging Natural Language Processing (NLP) techniques, the system preprocesses text to extract meaningful features and train models capable of distinguishing hate speech from non-offensive content. 
+
+The project utilizes key NLP methods such as tokenization, stemming, and TF-IDF (Term Frequency-Inverse Document Frequency) for feature extraction. These techniques help in breaking down text into its fundamental components, removing noise, and transforming it into a structured format suitable for machine learning. A Decision Tree Classifier is used as the primary algorithm for classification, chosen for its interpretability and effectiveness in handling text-based data.
+
+Through rigorous training and evaluation, the model achieves high precision and recall, ensuring reliable detection of offensive language. This project aims to contribute to online safety by providing an automated system that can assist in moderating content and reducing the spread of hate speech on digital platforms. Future improvements may include integrating deep learning models like LSTMs or transformers to enhance accuracy and generalization across different contexts.
